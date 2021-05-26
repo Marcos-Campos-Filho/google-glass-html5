@@ -124,9 +124,18 @@ nav#menu a:hover {
     text-decoration: underline;
 }
 
-/*Formatação da Section id=Corpo*/
+/*Formatação da Section id=corpo*/
 
 section#corpo {
     display: block;
-    width: 600px;
+    width: 500px;
+    float: left;
+}
+
+/*Formatação da Aside id=lateral*/
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
 }
