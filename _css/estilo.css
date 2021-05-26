@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'Fonte Logo' ;
+    src: url(../_fonts/bubblegum-sans-regular.otf);
+    font-family: 'Fonte sub';
+    src: url(../_fonts/TitilliumWeb-Regular.ttf);
+}
 
 body {
     background-color: #dddddd;
@@ -32,7 +38,7 @@ header#cabecalho {
 }
 
 header#cabecalho h1 {
-    font-family: Arial, sans-serif;
+    font-family: 'Fonte Logo', sans-serif;
     font-size: 30pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0,0,0,.6);
@@ -41,7 +47,7 @@ header#cabecalho h1 {
 }
 
 header#cabecalho h2 {
-    font-family: Arial, sans-serif;
+    font-family: 'Fonte Sub', sans-serif;
     color: #888888;
     font-size: 15pt;
     padding: 0px;
