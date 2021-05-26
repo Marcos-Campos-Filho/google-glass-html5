@@ -22,11 +22,13 @@ p {
 header#cabecalho img#icone {
     position: absolute;
     left: 750px;
-    top: 40px;
+    top: 75px;
 }
 
 header#cabecalho {
-
+   border-bottom: 1px #606060 solid;
+   height: 150px;
+   background: url(../_imagens/glass-logo-peq.jpg);
 }
 
 /* Formatação de imagens com legenda */
