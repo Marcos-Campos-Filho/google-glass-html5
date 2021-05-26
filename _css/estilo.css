@@ -139,3 +139,9 @@ aside#lateral {
     width: 350px;
     float: right;
 }
+
+/*Formatação da Footer id=rodape*/
+
+footer#rodape {
+    clear: both;
+}
