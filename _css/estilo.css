@@ -29,7 +29,14 @@ header#cabecalho img#icone {
 header#cabecalho {
      border-bottom: 1px #606060 solid;
      height: 150px;
-     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
+     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+
+header#cabecalho h1 {
+    font-family: Arial , sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
 }
 
 
