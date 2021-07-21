@@ -20,6 +20,14 @@ div#interface {       /* Formatação para o <div> */
      position: relative;
 }
 
+video#video-home {
+    width: 490px;
+}
+
+video#video-lateral {
+    width: 355px;
+}
+
 p  {
     text-align: justify;
     text-indent: 50px;
