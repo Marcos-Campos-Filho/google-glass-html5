@@ -38,7 +38,7 @@
             <h3 class="direita">Atualizado em 01/Julho/2021</h3>
             </hgroup>
             </header>  
-<form>
+<form method="post" id="fContato" action="mailto:marcoscampos96@hotmail.com">
 
 <fieldset id="usuario">                 
 <legend>Identificação do Usuário</legend>
@@ -57,22 +57,43 @@
 <legend>Endereço do Usuário</legend>
     <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="13" maxlenght="80" placeholder="Rua, Av, Trav.."/></p>
     <p><label for="cNum">Número:</label><input type="number" name="tNum" id="cNum" min="0" max="99999"/></p>
-    <p>Estado:</p>
-    <p>Cidade:</p>
+    <p><label for="cEst">Estado:</label>
+        <select name="tEst" id="cEst">
+             <optgroup label="Região Sudeste">
+                 <option value="RJ">Rio de Janeiro</option>
+                 <option value="SP" selected>São Paulo</option>
+                 <option value="MG">Minas Gerias</option>
+             </optgroup>
+             
+             <optgroup label="Região Sul">
+                 <option value="PA">Paraná</option>
+                 <option value="SC">Santa Catarina</option>
+                 <option value="RS">Rio Grande do Sul</option>
+            </optgroup>
+
+        </select></p>
+    <p><label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" size="20" maxlength="40" placeholder="Sua Cidade" list="cidades"/></p>
+    <datalist id="cidades">
+         <option value="Rio de Janeiro"></option>
+         <option value="Nova Iguaçu"></option>
+         <option value="Niterói"></option>
+         <option value="Belford Roxo"></option>
+    </datalist>
+
 </fieldset>
 
 <fieldset id="mensagem">
 <legend>Mensagem do Usuário</legend>
-    Grau de Urgência:
-    Mensagem:
+    <p><label for="cUrg">Grau de Urgência:</label></p>
+    <p><label for="cMsg">Mensagem:</label></p>
 </fieldset>
 
 <fieldset id="pedido">
 <legend>Quero um Google Glass</legend>
-    Gostaria de adquirir um Google Glass quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
+    <p><label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
+    <p><label for="cCor">Cor:</label></p>
+    <p><label for="cQtd">Quantidade:</label></p>
+    <p><label for="cTot">Preço Total: R$</label></p>
 </fieldset>
 
 [BOTÃO ENVIAR]
