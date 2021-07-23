@@ -1,2 +1,2 @@
 # google-glass-html5
- Projeto de Curso em forma de Site.
+ Projeto finalizado de Curso em forma de Site.
